@@ -1,0 +1,42 @@
+body {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    display: inline-block;
+    padding: 1em;
+    border: 1px solid #da7a04;
+    border-radius: 1em;
+}
+
+p + p {
+    margin-top: 1em;
+}
+
+label {
+    display: inline-block;
+    min-width: 100px;
+    text-align: center;
+}
+
+input {
+    font: 1wem sans-serif;
+    width: 250px;
+    box-sizing: border-box;
+    border: none;
+}
+
+input:focus {
+    outline-style: solid;
+    outline-color: black;
+}
+
+.button {
+    padding-left: 10%;
+}
+
+button {
+    margin-left: 0.5em;
+}

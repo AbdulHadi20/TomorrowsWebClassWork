@@ -7,7 +7,7 @@ const port = 3000;
 
 // Create an HTTP server
 const server = http.createServer((req, res) => {
-  // Log request information
+  // Log request
   console.log(`Received ${req.method} request for: ${req.url}`);
   
   // Get request headers
